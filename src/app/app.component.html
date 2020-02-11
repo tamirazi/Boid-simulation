@@ -1,0 +1,28 @@
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark" >
+    <!-- <a class="navbar-brand" href="#">PSO Visualiztion</a> -->
+    <button 
+    class="navbar-toggler" 
+    type="button" 
+    (click)="toggleNavbar()"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div 
+    class="collapse navbar-collapse"
+    [ngClass]="{ 'show': navbarOpen }"
+    >
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/boids']" routerLinkActive="active" (click)="settingsBtn = !settingsBtn">Boids</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">PSO</a>
+          </li>
+      </ul>
+    </div>
+</nav>
+<router-outlet></router-outlet>
