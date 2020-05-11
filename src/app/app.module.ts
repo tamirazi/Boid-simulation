@@ -9,6 +9,7 @@ import { CanvasComponent } from './boids/boids-canvas/canvas.component';
 import { BoidsComponent } from './boids/boids.component';
 import { HomeComponent } from './home/home.component';
 import { BoidsPropertiesComponent } from './boids/boids-properties/boids-properties.component';
+import { ReferencesComponent } from './references/references.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { BoidsPropertiesComponent } from './boids/boids-properties/boids-propert
     BoidsComponent,
     HomeComponent,
     BoidsPropertiesComponent,
+    ReferencesComponent,
   ],
   imports: [
     BrowserModule,

@@ -21,7 +21,7 @@ export class Particle {
     sperationPerceptionRadius = 50;
 
 
-    constructor(ctx: CanvasRenderingContext2D, radius = 1.2) {
+    constructor(ctx: CanvasRenderingContext2D, radius = 1) {
         this.radius = radius;
         this.color = this.colors[0];
         this.ctx = ctx;

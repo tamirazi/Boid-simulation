@@ -19,7 +19,7 @@ export class BoidsPropertiesComponent implements OnInit {
   runSimulation = false;
   slidersParametersChange = false;
 
-  showParametersCard = false;
+  showParametersCard = true;
   canStart = false;
 
   constructor(private boidsService: BoidsService) { }

@@ -1,0 +1,30 @@
+.bg,.bg-color {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.bg {
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../assets/sunset.jpg');
+
+    
+
+}
+
+.bg-color{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
