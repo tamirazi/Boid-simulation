@@ -25,8 +25,7 @@
             class="btn btn-sm" 
             [ngClass]="{'btn-success': !runSimulation, 'btn-warning': runSimulation}" 
             (click)="start()"
-            *ngIf="this.canStart"
-            >
+            *ngIf="this.canStart">
                 <div *ngIf="!runSimulation">Start</div>
                 <div *ngIf="runSimulation">Pause</div>
             </button>
