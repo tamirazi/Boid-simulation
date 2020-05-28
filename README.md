@@ -4,12 +4,14 @@ Boids is an artificial life program, developed by Craig Reynolds in 1986, which 
 
 This app created to give an idea how this beautiful simulation looks like.
 
+[Demo](https://boids-simulation.firebaseapp.com/)
+
 ![alt text](https://github.com/tamirazi/Boid-simulation/blob/master/preview.gif)
 
 ### Installing
 
 ```
-npm i && ng serve
+npm install
 ```
 
 ## Development server
@@ -18,4 +20,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Authors
 
-- **Tamir Azizi** - _Initial work_ - [PurpleBooth](https://github.com/tamirazi)
+- **Tamir Azizi** - [Github](https://github.com/tamirazi)
